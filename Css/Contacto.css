@@ -1,0 +1,129 @@
+main {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container {
+    margin-top: 4em;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 60em;
+    background-color: #28524A;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    flex-wrap: wrap; 
+}
+
+.contact-form {
+    width: 60%;
+}
+
+.contact-form h2 {
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    color: #ffffff;
+    margin-bottom: 5px;
+}
+
+.form-group input, 
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border:none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.form-group textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+.form-group input:focus, 
+.form-group textarea:focus {
+    outline: none;
+    border-color: #00ffe1;
+    box-shadow: 0 0 5px rgba(42, 157, 143, 1);
+}
+
+.submit-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #00211B;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #21867a;
+}
+
+.company-info {
+    width: 35%;
+    padding-left: 40px;
+    border-left: 1px solid #ccc;
+}
+
+.company-info h3 {
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.company-info p {
+    margin: 5px 0;
+    color: #ffffff;
+}
+
+.company-info p strong {
+    color: #2a9d8f;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        padding: 20px; 
+    }
+
+    .contact-form {
+        width: 100%;
+        margin-bottom: 20px; 
+    }
+
+    .company-info {
+        width: 100%; 
+        padding-left: 0; 
+        border-left: none; 
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 10px; 
+    }
+
+    .submit-btn {
+        font-size: 16px;
+    }
+
+    .form-group input, 
+    .form-group textarea {
+        font-size: 14px; 
+    }
+}

@@ -1,0 +1,31 @@
+h1 {
+    color: aliceblue;
+    text-align: center;
+    font-size: 3vw; 
+    margin: 20px;
+}
+
+
+footer img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.footerRedes ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+.footerRedes ul li {
+    margin: 0 10px;
+}
+
+
+#productosCarrito {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}

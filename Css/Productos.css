@@ -1,0 +1,93 @@
+.librosDestacados {
+    padding: 4em 1em;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;  
+}
+
+.librosDestacados .card {
+    background-color: #28524A;
+    color: whitesmoke;
+    margin-bottom: 1.5em; 
+}
+
+.librosDestacados .card p {
+    font-size: 12px;
+}
+
+.card {
+    width: 100%;
+    max-width: 280px;
+    height: 250px;
+    margin: 0.5em; 
+}
+
+.card-img-top {
+    height: 180px;
+    object-fit: cover;
+}
+
+.card .btn {
+    font-size: 0.55rem;
+}
+
+.pagination-container {
+    margin: 2em 0;
+}
+
+.pagination .page-link {
+    background-color: #28524A;
+    color: whitesmoke;
+    border: 1px solid #28524A;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.pagination .page-link:hover {
+    background-color: #1f4034;
+    color: white;
+}
+
+.pagination .page-item.active .page-link {
+    background-color: #1f4034;
+    border-color: #1f4034;
+}
+
+.pagination .page-item.disabled .page-link {
+    background-color: #6c757d;
+    border-color: #6c757d;
+    color: #dee2e6;
+}
+
+.custom-modal-bg {
+    background-color: #6c757d;
+    color: #ffffff;
+}
+
+@media (max-width: 768px) {
+    .librosDestacados {
+        padding: 3em 1em;
+        justify-content: center;
+        
+    }
+
+    .librosDestacados .card {
+        flex: 0 1 100%;
+        max-width: 100%; 
+    }
+
+    .pagination-container {
+        text-align: center;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+    .librosDestacados .card {
+        flex: 0 1 45%;
+    }
+}
+
+@media (min-width: 993px) {
+    .librosDestacados .card {
+        flex: 0 1 30%; 
+    }
+}
