@@ -1,0 +1,51 @@
+[
+    {
+      "title": "The Lady Of The Lake",
+      "image": "./Imagenes/image 19.png",
+      "description": "Geralt y Ciri enfrentan magia y peligros en su búsqueda de destino.",
+      "price": 20
+    },
+    {
+      "title": "Alice In Wonderland",
+      "image": "./Imagenes/image 20.png",
+      "description": "Alicia se adentra en un mundo surrealista lleno de personajes extravagantes.",
+      "price": 15
+    },
+    {
+      "title": "Cinderela",
+      "image": "./Imagenes/libro (1).png",
+      "description": "Una joven maltratada encuentra la felicidad gracias a la magia.",
+      "price": 18
+    },
+    {
+      "title": "Peter Pan",
+      "image": "./Imagenes/libro (2).png",
+      "description": "El niño que nunca crece lleva a los niños a la isla de Nunca Jamás.",
+      "price": 22
+    },
+    {
+      "title": "Hamlet",
+      "image": "./Imagenes/libro (3).png",
+      "description": "Un príncipe busca vengar la muerte de su padre mientras enfrenta su propia desesperación.",
+      "price": 25
+    },
+    {
+      "title": "Moby dick",
+      "image": "./Imagenes/libro (4).png",
+      "description": "El capitán Ahab persigue obsesivamente a la ballena blanca.",
+      "price": 30
+    },
+    {
+      "title": "Macbeth",
+      "image": "./Imagenes/libro (7).png",
+      "description": "La ambición de Macbeth lo lleva a la destrucción y el caos.",
+      "price": 17
+    },
+    {
+      "title": "Emma",
+      "image": "./Imagenes/libro (8).png",
+      "description": "Una joven malinterpreta los sentimientos de los demás en busca del amor.",
+      "price": 19
+    }
+  ]
+  
